@@ -2,6 +2,7 @@
 #
 # Browse Books
 #
+
 GET http://localhost:4004/odata/v4/catalog/Books?
   # &$select=title,stock
   # &$expand=currency
